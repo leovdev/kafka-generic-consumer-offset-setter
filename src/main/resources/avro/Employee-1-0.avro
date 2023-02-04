@@ -1,0 +1,10 @@
+{
+   "doc": "test avro model 1.0.0"
+   "type" : "record",
+   "namespace" : "com.kafka.broker.models",
+   "name" : "Employee",
+   "fields" : [
+      { "doc": "Employee name", "name" : "Name" , "type" : ["string", "null"] },
+      { "doc": "Employee age", "name" : "Age" , "type" : "int" }
+   ]
+}
